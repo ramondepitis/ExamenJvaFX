@@ -1,0 +1,23 @@
+.fondo{
+	-fx-background-image: url("view/assets/sky.jpeg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}
+.button{
+	-fx-background-color: orange;
+	-fx-background-radius:5; 
+}
+
+.button:hover{
+	-fx-background-color: blue; 
+}
+
+@font-face{
+ 	src: url(PoiretOne-Regular.ttf);
+ }
+ *{
+ 	-fx-font-family: 'Poiret One';
+ 	-fx-font-size:18px;
+		
+}
